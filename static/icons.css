@@ -1,0 +1,221 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/fonts/icomoon.eot?xr9822');
+  src:  url('/fonts/icomoon.eot?xr9822#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?xr9822') format('truetype'),
+    url('/fonts/icomoon.woff?xr9822') format('woff'),
+    url('/fonts/icomoon.svg?xr9822#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-http:before {
+  content: "\e900";
+}
+.icon-document-file-xml:before {
+  content: "\e901";
+}
+.icon-document-file-sql:before {
+  content: "\e902";
+}
+.icon-document-file-yml:before {
+  content: "\e903";
+}
+.icon-microsoftaccess:before {
+  content: "\e904";
+  color: #ba141a;
+}
+.icon-microsoftexcel:before {
+  content: "\e905";
+  color: #217346;
+}
+.icon-microsoftword:before {
+  content: "\e906";
+  color: #2b579a;
+}
+.icon-wordpress:before {
+  content: "\e907";
+  color: #21759b;
+}
+.icon-gnu:before {
+  content: "\e908";
+  color: #a42e2b;
+}
+.icon-json:before {
+  content: "\e909";
+}
+.icon-swagger:before {
+  content: "\e90a";
+  color: #85ea2d;
+}
+.icon-svelte:before {
+  content: "\e90b";
+  color: #ff3e00;
+}
+.icon-jquery:before {
+  content: "\e90c";
+  color: #0769ad;
+}
+.icon-kubernetes:before {
+  content: "\e90d";
+  color: #326ce5;
+}
+.icon-docker:before {
+  content: "\e90e";
+  color: #1488c6;
+}
+.icon-postman:before {
+  content: "\e90f";
+  color: #ff6c37;
+}
+.icon-powershell:before {
+  content: "\e910";
+  color: #5391fe;
+}
+.icon-django:before {
+  content: "\e911";
+}
+.icon-python:before {
+  content: "\e912";
+  color: #3776ab;
+}
+.icon-bootstrap:before {
+  content: "\e913";
+  color: #563d7c;
+}
+.icon-laravel:before {
+  content: "\e914";
+  color: #ff2d20;
+}
+.icon-php:before {
+  content: "\e915";
+  color: #777bb4;
+}
+.icon-ionic:before {
+  content: "\e916";
+  color: #3880ff;
+}
+.icon-microsoftoffice:before {
+  content: "\e917";
+  color: #e74025;
+}
+.icon-mysql:before {
+  content: "\e918";
+  color: #4479a1;
+}
+.icon-android:before {
+  content: "\e919";
+  color: #3ddc84;
+}
+.icon-typescript:before {
+  content: "\e91a";
+  color: #007acc;
+}
+.icon-java:before {
+  content: "\e91b";
+  color: #007396;
+}
+.icon-go:before {
+  content: "\e91c";
+  color: #00add8;
+}
+.icon-strapi:before {
+  content: "\e91d";
+  color: #2e7eea;
+}
+.icon-adobecreativecloud:before {
+  content: "\e91e";
+  color: #d41818;
+}
+.icon-googlecloud:before {
+  content: "\e91f";
+  color: #4285f4;
+}
+.icon-amazonaws:before {
+  content: "\e920";
+}
+.icon-microsoftazure:before {
+  content: "\e921";
+  color: #0089d6;
+}
+.icon-digitalocean:before {
+  content: "\e922";
+  color: #0080ff;
+}
+.icon-heroku:before {
+  content: "\e923";
+  color: #430098;
+}
+.icon-netlify:before {
+  content: "\e924";
+  color: #00c7b7;
+}
+.icon-postgresql:before {
+  content: "\e925";
+  color: #336791;
+}
+.icon-mongodb:before {
+  content: "\e926";
+  color: #47a248;
+}
+.icon-csharp:before {
+  content: "\e927";
+  color: #239120;
+}
+.icon-dot-net:before {
+  content: "\e928";
+  color: #5c2d91;
+}
+.icon-angular:before {
+  content: "\e929";
+  color: #dd0031;
+}
+.icon-vue-dot-js:before {
+  content: "\e92a";
+  color: #4fc08d;
+}
+.icon-nuxt-dot-js:before {
+  content: "\e92b";
+  color: #00c58e;
+}
+.icon-node-dot-js:before {
+  content: "\e92c";
+  color: #393;
+}
+.icon-tailwindcss:before {
+  content: "\e92d";
+  color: #38b2ac;
+}
+.icon-css3:before {
+  content: "\e92e";
+  color: #1572b6;
+}
+.icon-html5:before {
+  content: "\e92f";
+  color: #e34f26;
+}
+.icon-terminal:before {
+  content: "\ea81";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-git:before {
+  content: "\eae7";
+}
