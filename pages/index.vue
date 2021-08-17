@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import '../styles/icons.css';
+//import '../styles/icons.css';
 
 export default {
   head(){
