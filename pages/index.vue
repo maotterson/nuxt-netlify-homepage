@@ -16,6 +16,19 @@ export default {
   },
   async asyncData({$content}){
     const skills = await $content("skill").fetch()
+    for(const skill of skills){
+      skill["projects"]=[]
+    }
+    const projects = await $content("project").fetch()
+    for(const project of projects){
+      for(const tag of project.tags)
+      {
+        const currSkill = skills.find(({title})=>title===tag)
+        if(currSkill){
+          currSkill["projects"].push(project)
+        }
+      }
+    }
     let categories = []
     skills.forEach(skill=>{
       if(!categories.some(category=>category.title===skill.category)){

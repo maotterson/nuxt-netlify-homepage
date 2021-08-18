@@ -15,8 +15,10 @@
 
           <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cum eos odio voluptas asperiores hic laborum quae itaque iure aperiam quasi nesciunt explicabo cupiditate! Corrupti atque libero fugiat quisquam aspernatur.</p>
           
-          <h2 class="text-2xl" v-if="expandedSkill.taggedProjects">Projects</h2>
-
+          <div v-if="expandedSkill.projects.length!=0">
+            <h2 class="text-2xl" >Projects</h2>
+            <div v-for="project in expandedSkill.projects" :key="project.slug"><NuxtLink :to="project.path">{{project.title}}</NuxtLink></div>
+          </div>
         </div>
       </div>
     </div>

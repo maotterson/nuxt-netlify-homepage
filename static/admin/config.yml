@@ -35,13 +35,14 @@ collections:
   - name: 'skill'
     label: 'Skill'
     folder: 'content/skill'
-    format: 'yml'
+    format: 'yaml-frontmatter'
     create: true
     slug: '{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Subcategories', name: 'subcategories', widget: 'list', required: false }
       - { label: 'Icon', name: "icon", widget: '', required: false }
-      - { label: 'Category', name: 'category', widget: 'select', options: ["Front-end", "JS Framework", "CSS Framework", "Back-end", "DBMS", "Application", "Mobile", "Paradigm", "Platform", "Tool"]}
+      - { label: 'Category', name: 'category', widget: 'select', options: ["Front-end", "Front-end Framework", "Back-end", "DBMS", "Desktop/Mobile Apps", "Cloud Platforms & Services", "Other Tools"]}
