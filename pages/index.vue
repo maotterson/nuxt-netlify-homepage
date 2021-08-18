@@ -32,8 +32,6 @@ export default {
       }
     })
 
-    console.log(categories)
-
     return {
       categories,
       skills
