@@ -13,7 +13,7 @@
             </li>
           </ul>
 
-          <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, cum eos odio voluptas asperiores hic laborum quae itaque iure aperiam quasi nesciunt explicabo cupiditate! Corrupti atque libero fugiat quisquam aspernatur.</p>
+          <p class="mb-4">{{expandedSkill.body}}</p>
           
           <div v-if="expandedSkill.projects.length!=0">
             <h2 class="text-2xl" >Projects</h2>
