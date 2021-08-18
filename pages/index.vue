@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Skills</h1>
-    <SkillList :skills="skills" />
+    <SkillList :skills="skills" :categories="categories" />
   </div>
 </template>
 
@@ -18,18 +18,24 @@ export default {
     const skills = await $content("skill").fetch()
     let categories = []
     skills.forEach(skill=>{
-      if(!categories.some(category=>category.name===skill.category)){
+      if(!categories.some(category=>category.title===skill.category)){
         categories.push({
-          name: skill.category,
+          title: skill.category,
           skills: [skill]
         })
       }
-      //todo add skill to existing category group
+      else{
+        const currentCategory = categories.find(({title})=>title===skill.category)
+        currentCategory.skills.push(
+          skill
+        )
+      }
     })
 
     console.log(categories)
 
     return {
+      categories,
       skills
     }
   },
