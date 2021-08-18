@@ -2,6 +2,7 @@
   <div>
     <h1>Skills</h1>
     <SkillList :skills="skills" :categories="categories" />
+    
   </div>
 </template>
 
@@ -20,6 +21,7 @@ export default {
       skill["projects"]=[]
     }
     const projects = await $content("project").fetch()
+    
     for(const project of projects){
       for(const tag of project.tags)
       {

@@ -13,7 +13,7 @@
             </li>
           </ul>
 
-          <p class="mb-4">{{expandedSkill.body}}</p>
+          <nuxt-content :document="expandedSkill" class="mb-4"/>
           
           <div v-if="expandedSkill.projects.length!=0">
             <h2 class="text-2xl" >Projects</h2>
