@@ -16,6 +16,18 @@ export default {
   },
   async asyncData({$content}){
     const skills = await $content("skill").fetch()
+    let categories = []
+    skills.forEach(skill=>{
+      if(!categories.some(category=>category.name===skill.category)){
+        categories.push({
+          name: skill.category,
+          skills: [skill]
+        })
+      }
+      //todo add skill to existing category group
+    })
+
+    console.log(categories)
 
     return {
       skills
