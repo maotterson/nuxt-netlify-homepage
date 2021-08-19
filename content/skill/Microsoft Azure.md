@@ -6,6 +6,7 @@ subcategories:
   - WebApp
   - CosmosDB
   - AzureCLI
+starred: false
 ---
 Over the summer 2021 I had the opportunity to work a lot with Azure's core services when figuring out how best to implement a greenfield project to track tutoring usage for my department.
 

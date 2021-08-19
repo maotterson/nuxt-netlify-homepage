@@ -5,6 +5,7 @@ subcategories:
   - MVC
 icon: icon-dot-net
 category: Back-end
+starred: true
 ---
 I have worked with ASP.NET for multiple years, as the first web framework that I was introduced to. 
 

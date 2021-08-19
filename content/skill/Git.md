@@ -2,6 +2,7 @@
 title: Git
 icon: icon-git
 category: Other Tools
+starred: false
 ---
 For version control I have used git exclusively, and have what I would best describe as an intermediate understanding of how to best leverage it in a project.
 

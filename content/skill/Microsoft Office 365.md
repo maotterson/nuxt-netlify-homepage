@@ -7,6 +7,7 @@ subcategories:
   - Excel
   - PowerPoint
   - Access
+starred: false
 ---
 I would consider myself very comfortable with many of the core features of Word, Excel, PowerPoint and Access. In working as a tutor I have also been exposed to some lesser-used features of these programs, which at times I have found can be quite interesting.
 

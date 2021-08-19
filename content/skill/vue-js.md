@@ -4,7 +4,8 @@ subcategories:
   - Vuetify
   - Vuex
 icon: icon-vue-dot-js
-category: Front-end Framework
+category: Front-end Frameworks
+starred: true
 ---
 Vue.js is my goto tool for creating just about any client-facing portion of application. I am most comfortable building components that leverage the **Options API**.
 

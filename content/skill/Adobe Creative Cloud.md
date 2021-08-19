@@ -5,6 +5,7 @@ subcategories:
   - Photoshop
 icon: icon-adobecreativecloud
 category: Other Tools
+starred: false
 ---
 Much of my experience with the Adobe Creative suite of tools has been to enhance other projects and has been self-taught.
 

@@ -45,4 +45,5 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Subcategories', name: 'subcategories', widget: 'list', required: false }
       - { label: 'Icon', name: "icon", widget: '', required: false }
+      - { label: 'Starred', name: "starred", widget: 'boolean', default: false, required: true}
       - { label: 'Category', name: 'category', widget: 'select', options: ["Front-end", "Front-end Framework", "Back-end", "DBMS", "Desktop/Mobile Apps", "Cloud Platforms & Services", "Other Tools"]}

@@ -2,6 +2,7 @@
 title: Bootstrap
 icon: icon-bootstrap
 category: Front-end
+starred: false
 ---
 I have implemented the Bootstrap libraries many times in situations where getting some quick functionality is most important.
 

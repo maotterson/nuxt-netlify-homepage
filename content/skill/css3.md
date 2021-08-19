@@ -4,6 +4,7 @@ icon: icon-css3
 category: Front-end
 subcategories:
   - SASS
+starred: true
 ---
 I generally prefer to hook up Tailwind CSS classesin personal projects, however I am just as comfortable working in vanilla CSS depending on the situation. 
 

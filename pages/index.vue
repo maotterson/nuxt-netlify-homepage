@@ -17,6 +17,7 @@ export default {
   },
   async asyncData({$content}){
     const skills = await $content("skill").fetch()
+    skills.sort(({starred: x},{starred: y})=>{return y-x})
     for(const skill of skills){
       skill["projects"]=[]
     }

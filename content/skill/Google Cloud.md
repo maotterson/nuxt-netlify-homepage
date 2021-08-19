@@ -5,6 +5,7 @@ category: Cloud Platforms & Services
 subcategories:
   - Maps
   - Firestore
+starred: false
 ---
 I have *played around with* firestore as a simple backend-as-a-service on small projects, but most of my experience with Google Cloud is through their service APIs. 
 

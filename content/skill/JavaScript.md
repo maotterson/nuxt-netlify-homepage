@@ -2,6 +2,7 @@
 title: JavaScript
 icon: icon-javascript
 category: Front-end
+starred: true
 ---
 JavaScript is the language I am most comfortable sitting down and coding in for a given project, as I generally default to utilizing whichever technologies are applicable along the MEVN stack. 
 

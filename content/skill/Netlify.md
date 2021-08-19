@@ -4,6 +4,7 @@ icon: icon-netlify
 category: Cloud Platforms & Services
 subcategories:
   - Netlify CMS
+starred: false
 ---
 I am currently using Netlify as the hosting platform for my personal portfolio, and am generally comfortable with the provided *quality-of-life* features it provides.
 

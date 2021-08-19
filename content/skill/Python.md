@@ -4,6 +4,7 @@ icon: icon-python
 category: Back-end
 subcategories:
   - Django
+starred: false
 ---
 I began using Python before I chose to pursue a career in software development, and am generally most comfortable using it for smaller scale solutions.
 

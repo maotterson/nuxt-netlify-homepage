@@ -8,6 +8,7 @@ subcategories:
   - Lambda
   - DynamoDB
   - Route53
+starred: false
 ---
 Historically I have deployed several applications via the Elastic Beanstalk service, or managed EC2 instances.
 

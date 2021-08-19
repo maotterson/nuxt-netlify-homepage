@@ -5,6 +5,7 @@ category: DBMS
 subcategories:
   - Realm
   - Mongoose
+starred: true
 ---
 Defaulting to Node.js/Express.js, most of the time MongoDB is my database service of choice utilizing the Mongoose module. 
 

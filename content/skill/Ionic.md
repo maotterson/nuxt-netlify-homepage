@@ -2,6 +2,7 @@
 title: Ionic
 icon: icon-ionic
 category: Desktop/Mobile Apps
+starred: false
 ---
 I have a little bit of experience using Ionic to quickly turn an SPA into a mobile application, just for my own curiosity. 
 
