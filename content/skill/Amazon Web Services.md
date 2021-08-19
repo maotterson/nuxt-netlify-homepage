@@ -11,4 +11,4 @@ subcategories:
 ---
 Historically I have deployed several applications via the Elastic Beanstalk service, or managed EC2 instances.
 
-I also have some experience creating lambda functions as my interest in microservices-oriented/serverless architectures has grown.
+I also have some experience creating Lambda functions as my interest in microservices-oriented/serverless architectures has grown.
