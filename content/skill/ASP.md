@@ -6,6 +6,8 @@ subcategories:
 icon: icon-dot-net
 category: Back-end
 ---
-I have worked with ASP.NET as a whole for multiple years, as it was the first web framework that I was introduced to. In an academic setting I first began working with Web Forms, but with the advent of ASP.NET Core I am now most familiar with/prefer Razor Pages (MVVM) or MVC project paradigms.
+I have worked with ASP.NET as a whole for multiple years, as it was the first web framework that I was introduced to. 
 
-ASP.NET Core is currently my preferred statically-typed back-end tool, as I have a preference for C#. I have also tutored the subject matter for multiple years.
+In an academic setting I first began working with **Web Forms**, but with the advent of ASP.NET Core I am now most familiar with/prefer **Razor Pages** (MVVM) or **MVC** project paradigms.
+
+ASP.NET Core is currently my preferred *statically-typed* back-end tool, as I have a preference for C#. I have also tutored the subject matter for multiple years.

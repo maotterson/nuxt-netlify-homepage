@@ -3,3 +3,6 @@ title: Docker
 icon: icon-docker
 category: Cloud Platforms & Services
 ---
+My Docker experience has consisted mostly of getting containerized applications deployed successfully. At times that has required making slight tweaks to boilerplate dockerfiles, but still not delving into anything too advanced.
+
+Locally I have also experimented with running KIND Kubernetes clusters in a Docker Desktop environment because I find the technology to be interesting.
