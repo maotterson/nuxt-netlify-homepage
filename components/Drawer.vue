@@ -1,7 +1,8 @@
 <template>
-  <div class="flex flex-row justify-between">
-    <h1>Mark Otterson</h1>
-    <NavIcon/>
+  <div class="flex flex-col min-h-screenh-full">
+    <Nav />
+
+    <SocialLinks />
   </div>
 </template>
 

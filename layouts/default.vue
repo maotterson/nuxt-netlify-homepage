@@ -1,6 +1,7 @@
 <template>
   <div>
     <Topbar class="text-white bg-blue-700 md:hidden" />
+    <Drawer class="text-white bg-blue-700" v-if="this.$store.state.drawerShowing"/>
     <div class="grid grid-cols-4">
       <Sidebar 
         class="text-white bg-blue-700 hidden md:col-span-1 md:block"/>
@@ -11,11 +12,6 @@
 
 <script>
 export default {
-  data() {
-    return {
-      isSidebarShowing:true
-    }
-  },
 }
 </script>
 
