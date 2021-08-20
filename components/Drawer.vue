@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-screenh-full">
+  <div class="flex flex-col h-full">
     <Nav />
 
     <SocialLinks />

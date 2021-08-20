@@ -10,10 +10,10 @@ export const getters = {
 
 export const mutations = {
   toggleDrawer(){
-    console.log("toggle")
     this.state.drawerShowing ? this.state.drawerShowing = false : this.state.drawerShowing = true;
   },
   closeDrawer(){
+    console.log("close")
     this.state.drawerShowing = false;
   }
 }

@@ -4,13 +4,13 @@
     id="burger"
     @click="toggleDrawer">
     <span 
-      class="absolute inset-0 w-6 h-1 rounded burger-top transition-all	bg-black"
+      class="absolute inset-0 w-6 h-1 rounded burger-top transition-all	bg-white"
       ref="burgerTop"></span>
     <span 
-      class="absolute inset-y-2 w-6 h-1 rounded burger-middle transition-all bg-black" 
+      class="absolute inset-y-2 w-6 h-1 rounded burger-middle transition-all bg-white" 
       ref="burgerMiddle" ></span>
     <span 
-      class="absolute inset-y-4 w-6 h-1 rounded burger-bottom transition-all bg-black" 
+      class="absolute inset-y-4 w-6 h-1 rounded burger-bottom transition-all bg-white" 
       ref="burgerBottom"></span>
   </div>
 </template>
@@ -30,7 +30,6 @@ export default {
   },
   methods: {
     toggleDrawer() {
-      console.log("toggle on icon")
       this.$store.commit('toggleDrawer')
     },
     changeIconAppearance() {
@@ -63,7 +62,6 @@ export default {
 
 <style>
 .nav-icon:hover span{
-  background-color:#DC2626;
   transition: 0.5s;
 
 }

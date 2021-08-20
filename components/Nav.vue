@@ -4,14 +4,14 @@
       v-for="link in links"
       :key="link.title"
       class="mb-2 text-2xl">
-      <NuxtLink :to="link.href">{{link.title}}</NuxtLink>
+      <NuxtLink :to="link.href" @click.native="closeDrawer">{{link.title}}</NuxtLink>
     </li>
   </ul>
 </template>
 
 <script>
 export default {
-data() {
+  data() {
     return {
       links: [
         {
@@ -41,6 +41,11 @@ data() {
       ]
     }
   },
+  methods: {
+    closeDrawer() {
+      this.$store.commit('closeDrawer')
+    },
+  }
 }
 </script>
 
