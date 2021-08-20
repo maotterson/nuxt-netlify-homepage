@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?wkbmqk');
-  src:  url('fonts/icomoon.eot?wkbmqk#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?wkbmqk') format('truetype'),
-    url('fonts/icomoon.woff?wkbmqk') format('woff'),
-    url('fonts/icomoon.svg?wkbmqk#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?k28ul');
+  src:  url('fonts/icomoon.eot?k28ul#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?k28ul') format('truetype'),
+    url('fonts/icomoon.woff?k28ul') format('woff'),
+    url('fonts/icomoon.svg?k28ul#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,13 +25,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-external-link:before {
+  content: "\e939";
+}
+.icon-star-o:before {
+  content: "\e93a";
+}
+.icon-star:before {
+  content: "\e93b";
+}
 .icon-envelope-o:before {
   content: "\e937";
 }
 .icon-envelope:before {
   content: "\e938";
 }
-.icon-star:before {
+.icon-star1:before {
   content: "\e936";
 }
 .icon-http:before {

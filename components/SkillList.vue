@@ -12,7 +12,7 @@
           <li v-for="skill of category.skills" 
             :key="skill.slug" 
             @click="expandSkill(skill)" 
-            :class="[(skill===expandedSkill)?'bg-green-800 border-green-900 text-white':'bg-gray-100',(skill.starred)?'border-yellow-500 bg-gray-300':'']" 
+            :class="[(skill===expandedSkill)?'bg-green-800 border-green-900 text-white':'bg-gray-100',(skill.starred)?'border-yellow-300 bg-yellow-100':'']" 
             class="border-2 rounded hover:bg-green-100 hover:border-green-400 p-2 mr-2 mb-2">
             <span class="mr-2" :class="skill.icon"></span><span :class="(skill.starred)?'font-medium':''">{{skill.title}}</span>
           </li>

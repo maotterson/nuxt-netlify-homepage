@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1>Resume</h1>
-  </div>
+  <div>Mark Otterson</div>
 </template>
 
 <script>

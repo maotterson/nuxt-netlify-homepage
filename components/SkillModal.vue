@@ -10,7 +10,7 @@
               <h1 class="text-4xl	mb-4"><span :class="expandedSkill.icon"></span> {{expandedSkill.title}}</h1> 
             </div>
             <div class="flex-grow"></div>
-            <span v-if="expandedSkill.starred" class="text-2xl icon-star-full text-yellow-400"></span>
+            <span v-if="expandedSkill.starred" class="text-2xl icon-star text-yellow-400"></span>
           </div>
 
           <ul class="flex flex-row flex-wrap justify-items-stretch mb-4">

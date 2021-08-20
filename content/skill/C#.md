@@ -2,7 +2,8 @@
 title: C#
 icon: icon-csharp
 category: Desktop/Mobile Apps
-subcategories: Xamarin
+subcategories: 
+  - Xamarin
 starred: true
 ---
 Apart from JavaScript, C# is the language I have the most experience and level of familiarity with. 
