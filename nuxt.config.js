@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-netlify-homepage',
+    title: 'Mark Otterson - maotterson.com',
     htmlAttrs: {
       lang: 'en'
     },
