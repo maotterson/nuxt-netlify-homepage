@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Projects</h1>
+    <h1 class="lg:text-4xl text-2xl font-bold mb-2">Projects</h1>
   </div>
 </template>
 

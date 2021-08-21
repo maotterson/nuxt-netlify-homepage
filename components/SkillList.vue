@@ -6,8 +6,8 @@
       @closemodal="closeModal"
     />
     <ul class="flex flex-col">
-      <li v-for="category of categories" :key="category.slug">
-        {{ category.title }}
+      <li v-for="category of categories" :key="category.slug" class="p-4 bg-gray-100 shadow rounded mb-4 ">
+        <h2 class="font-bold mb-4 text-xl">{{ category.title }}</h2>
         <ul class="flex flex-row flex-wrap justify-items-stretch">
           <li v-for="skill of category.skills" 
             :key="skill.slug" 

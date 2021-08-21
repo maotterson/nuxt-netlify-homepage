@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>Skills</h1>
+    <h1 class="lg:text-4xl text-2xl font-bold mb-2">Skills & Technologies</h1>
+    <p class="mb-4">Below are a list of technologies, languages, and tools that I have worked with beyond an introductory level. Each listed skill has a summary of my familarity with it.</p>
     <SkillList :skills="skills" :categories="categories" />
   </div>
 </template>

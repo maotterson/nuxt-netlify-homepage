@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="lg:text-4xl text-2xl font-bold mb-2">Contact</h1>
+    <h1>FOOTER</h1>
   </div>
 </template>
 
