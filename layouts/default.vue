@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div :class="(this.$store.state.drawerShowing)?'h-screen':''">
+    <div class="flex flex-col" :class="(this.$store.state.drawerShowing)?'min-h-screen':''">
       <Topbar class="text-white bg-blue-900 md:hidden" />
-      <Drawer class="text-white bg-blue-900" v-if="this.$store.state.drawerShowing"/>
+      <Drawer class="text-white bg-blue-900 flex-grow	" v-if="this.$store.state.drawerShowing"/>
     </div>
     <div class="grid grid-cols-4" v-if="!this.$store.state.drawerShowing">
       <Sidebar 
