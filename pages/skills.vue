@@ -20,7 +20,7 @@ export default {
     for(const skill of skills){
       skill["projects"]=[]
     }
-    const projects = await $content("project").fetch()
+    const projects = await $content("projects").fetch()
     
     for(const project of projects){
       for(const tag of project.tags)
