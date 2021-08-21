@@ -1,8 +1,7 @@
 <template>
   <div class="flex flex-col h-full">
-    <Nav />
-
-    <SocialLinks />
+    <Nav class="items-center"/>
+    <SocialLinks class="items-center"/>
   </div>
 </template>
 

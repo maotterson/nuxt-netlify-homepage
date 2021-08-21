@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row justify-between">
+  <div class="flex flex-row justify-between py-4 px-2">
     <h1>Mark Otterson</h1>
     <NavIcon/>
   </div>
