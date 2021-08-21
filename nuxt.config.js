@@ -19,6 +19,19 @@ export default {
     ]
   },
 
+  generate: {
+    routes: function() {
+      const fs = require('fs');
+      const path = require('path');
+      return fs.readdirSync('./content/projects').map(file => {
+        return {
+          route: `/projects/${path.parse(file).name}`, // Return the slug
+          payload: require(`./content/projects/${file}`),
+        };
+      });
+    },
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/static/icons.css',
