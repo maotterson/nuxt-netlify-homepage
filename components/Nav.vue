@@ -3,7 +3,7 @@
     <li 
       v-for="link in links"
       :key="link.title"
-      class="mb-4 text-3xl">
+      class="mb-4 text-3xl hover:text-blue-400">
       <NuxtLink :to="link.href" @click.native="closeDrawer">{{link.title}}</NuxtLink>
     </li>
   </ul>
