@@ -4,11 +4,11 @@
       <Topbar class="text-white bg-gray-800 lg:hidden" />
       <Drawer class="text-white bg-gray-800 flex-grow	" v-if="this.$store.state.drawerShowing"/>
     </div>
-    <div class="w-full max-w-8xl mx-auto h-full" v-if="!this.$store.state.drawerShowing">
+    <div class="max-w-8xl w-full md:max-w-md lg:max-w-max mx-auto h-full" v-if="!this.$store.state.drawerShowing">
       <div class="lg:flex">
         <Sidebar 
           class="p-20 h-full flex-none text-black bg-white hidden lg:block"/>
-        <nuxt class="lg:max-h-full lg:overflow-visible flex-auto lg:static w-full bg-white min-h-screen shadow-xl p-4 lg:p-12"></nuxt>
+        <nuxt class="lg:static bg-white w-full min-h-screen shadow-xl p-4 lg:p-12"></nuxt>
       </div>
     </div>
     <Footer/>
@@ -22,6 +22,6 @@ export default {
 
 <style>
 .max-w-8xl{
-  width:92rem;
+  max-width:90rem;
 }
 </style>
