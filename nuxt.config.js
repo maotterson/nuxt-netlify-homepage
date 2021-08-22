@@ -46,6 +46,18 @@ export default {
     '@nuxt/content',
   ],
 
+  generate: {
+    routes: function() {
+      const fs = require('fs')
+      return fs.readdirSync('./content/projects').map(file => {
+        return {
+          route: `/projects/${file.slice(0,-3)}`,
+          payload: fs.readFileSync(`./content/projects/${file}`)
+        }
+      })
+    }
+  },
+
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
