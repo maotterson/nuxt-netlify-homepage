@@ -2,6 +2,9 @@
 title: Angular
 icon: icon-angular
 category: Front-end Frameworks
+subcategories:
+  - AngularMaterial
+  - RxJs
 starred: false
 ---
 Angular is my second-most familiar modern front-end framework, and I have used it for multiple projects in the past. 

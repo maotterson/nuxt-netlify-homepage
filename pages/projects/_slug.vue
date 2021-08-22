@@ -1,7 +1,10 @@
 <template>
   <div>
-    <h2 class="text-4xl font-bold mb-4">{{ post.title }}</h2>
-    <nuxt-content :document="post" />
+    <div class="prose md:prose-xl">
+      <h1>{{ post.title }}</h1>
+      <h3>{{ post.description }}</h3>
+      <nuxt-content :document="post" />
+    </div>
   </div>
 </template>
 

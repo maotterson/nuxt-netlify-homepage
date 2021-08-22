@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1 class="lg:text-4xl text-2xl font-bold mb-2">Resume</h1>
+    <div class="prose md:prose-xl">
+      <h1>Resume</h1>
+    </div>
   </div>
 </template>
 

@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1 class="lg:text-4xl text-2xl font-bold mb-2">Contact</h1>
+    <div class="prose md:prose-xl">
+      <h1>Contact Me</h1>
+    </div>
   </div>
 </template>
 

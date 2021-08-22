@@ -1,11 +1,15 @@
 <template>
   <div>
-    <h1 class="lg:text-4xl text-2xl font-bold mb-2">Projects</h1>
-    <ul class="flex flex-col">
-      <li v-for="project of projects" :key="project.slug">
-        <NuxtLink :to="project.slug" class="text-xl text-blue-600">{{ project.title }}</NuxtLink>
-      </li>
-    </ul>
+    <div class="prose md:prose-xl mb-8">
+      <h1 class="">Projects</h1>
+      <h3>A selection of projects I have worked on</h3>
+      <div class="flex flex-col">
+        <div v-for="project of projects" :key="project.slug">
+          <NuxtLink :to="project.slug"><h3>{{ project.title }}</h3></NuxtLink>
+          <h5 >{{project.description}}</h5>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
