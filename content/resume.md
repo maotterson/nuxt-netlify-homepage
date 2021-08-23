@@ -3,29 +3,28 @@ title: Resume
 description: 'My resume in markdown!'
 ---
 
----
 ## Summary
 
 An aspiring web/software developer with a passion for learning new technologies and solving problems. Seeking an opportunity to help develop web-based solutions.
 
----
+
 ## Technical Skills
 
 - **Languages:** C#, Java, PHP, Go, Python
 - **Front-End:** JavaScript, HTML5, CSS3
-- **Back-End Technologies:** Node.js/Express.js, ASP.NET Core, Laravel, Django
 - **Front-End Frameworks:** Vue.js/Nuxt.js, Angular, Svelte, jQuery
-- **Design Patterns:** MVC, MVVM, REST/RPC APIs, MEVN, JAMStack, LAMP
-- **Cloud:** DigitalOcean, AWS, Azure, Google Cloud, Docker, GitHub, Netlify, Strapi
+- **Back-End Frameworks:** Node.js/Express.js, ASP.NET Core, Laravel, Django
+- **Design Patterns/Strategies:** MVC, MVVM, REST/RPC APIs, MEVN, JAMStack, LAMP
+- **Cloud Platforms/Technologies:** DigitalOcean, AWS, Azure, Google Cloud, Docker, GitHub, Netlify, Strapi
 - **DBMS:** MongoDB, MySQL
 - **Other:** MS Office, MS PowerApps, Adobe Creative, Postman, Bash, Powershell, git
----
+
 ## Qualifications
 - Three years of professional tutoring experience in software and web development with  
 - Six months of full-stack freelance web development experience, projects including:
   - MEAN project to display current COVID-19 vaccination appointments in Ohio.
   - In-house web applications (Node.js REST API, ASP.NET Website) to automate student check-ins for tutoring with our department's system.
----
+
 ## Education
 ### **The Ohio State University, Columbus, OH**
 
@@ -38,8 +37,6 @@ Projects included designing and implementing a real-time home power consumption 
 *Web Programming & Software Development Fundamentals Certificates + Misc (4.0 GPA)*
 
 Projects included designing a database-driven website with ASP.NET, AJAX and Web Forms to evaluate fantasy football trades and an android geography guessing game with Google Maps APIs
-
----
 
 ## Relevant Work Experience
 ### **Lorain County Community College - Academic Support Center, Elyria, OH**
