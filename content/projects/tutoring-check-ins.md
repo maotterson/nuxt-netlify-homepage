@@ -1,5 +1,13 @@
-## Summary
+---
+title: Automated Check-In Service for Tutoring Center @ LCCC
+description: A working prototype to handle automated student check-ins at Lorain County Community College's Tutoring Center.
+tags:
+  - Node.js
+  - Express.js
+---
 
+## Summary
+A working prototype to handle automated student check-ins at Lorain County Community College's Tutoring Center.
 
 ## Contents
 The project consisted of two web applications: a Node.js REST API and a ASP.NET website. 
