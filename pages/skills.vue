@@ -2,7 +2,7 @@
   <div>
     <div class="prose md:prose-xl mb-4">
       <h1 >Skills & Technologies</h1>
-      <h3 >Technologies, languages, and tools that I have worked with beyond an introductory level</h3>
+      <h3 >Technologies, languages, and tools that I have worked with beyond an introductory level.</h3>
       <SkillList :skills="skills" :categories="categories" />
     </div>
   </div>

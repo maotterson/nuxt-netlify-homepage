@@ -2,13 +2,18 @@
   <div>
     <div class="prose md:prose-xl">
       <h1>Resume</h1>
+      <h3>A browser-friendly version of my resume.</h3>
+      <nuxt-content :document="resume" />
     </div>
   </div>
 </template>
 
 <script>
 export default {
-
+  async asyncData({$content}){
+      const resume = await $content("resume").fetch()
+      return {resume}
+  }
 }
 </script>
 

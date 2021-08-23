@@ -2,10 +2,10 @@
   <div>
     <div class="prose md:prose-xl mb-8">
       <h1 class="">Projects</h1>
-      <h3>A selection of projects I have worked on</h3>
+      <h3>A selection of projects I have worked on.</h3>
       <div class="flex flex-col">
         <div v-for="project of projects" :key="project.slug">
-          <NuxtLink :to="project.slug"><h3>{{ project.title }}</h3></NuxtLink>
+          <h3><NuxtLink :to="project.slug">{{ project.title }}</NuxtLink></h3>
           <h5 >{{project.description}}</h5>
         </div>
       </div>
