@@ -20,19 +20,19 @@ An aspiring web/software developer with a passion for learning new technologies 
 - **Other:** MS Office, MS PowerApps, Adobe Creative, Postman, Bash, Powershell, git
 
 ## Qualifications
-- Three years of professional tutoring experience in software and web development with  
+- Three years of professional tutoring experience in software and web development and math at a local community college
 - Six months of full-stack freelance web development experience, projects including:
   - MEAN project to display current COVID-19 vaccination appointments in Ohio.
   - In-house web applications (Node.js REST API, ASP.NET Website) to automate student check-ins for tutoring with our department's system.
 
 ## Education
-### **The Ohio State University, Columbus, OH**
+### **The Ohio State University, Columbus, OH -- September 2006 - June 2011**
 
 *B.S. Mechanical Engineering, General Business Minor (3.3 GPA)*
 
 Projects included designing and implementing a real-time home power consumption monitoring device in an apartment using Arduino; additional extensive technical writing, collaborative semester-long capstone assignments with weekly presentations, and utilizing higher-level programming languages (MatLab, LabView) to complete labs and solve problems.
 
-### **Lorain County Community College, Elyria, OH**
+### **Lorain County Community College, Elyria, OH -- January 2018 - December 2019**
 
 *Web Programming & Software Development Fundamentals Certificates + Misc (4.0 GPA)*
 
