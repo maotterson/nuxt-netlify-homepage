@@ -8,16 +8,22 @@ tags:
   - Express.js
   - MongoDB
   - Googleapis
+  - DigitalOcean
 ---
 ## Summary
 A web application displaying currently available COVID-19 vaccine
 appointments in Ohio on a map.
 
+## Dates Developed
+March 2021 - April 2021
+
 ## Contents
 - A full-stack monolithic web application (MEAN), consisting of a Node.js back-end using the Express.js framework and a front-end built on the Angular framework.
+
 - A MongoDB instance to store appointment state and normalized location data
+
 - MongoDB Realm serverless functions to reach out to an external data source at scheduled intervals and normalize the data to be stored locally at a reduced capacity.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- A DigitalOcean web platform housing the web application, and a MongoDB Atlas cluster for the database.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- External communication with Google Maps & Places API-related services & VaccineSpotter.org API containing scraped appointment data.
