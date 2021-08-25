@@ -2,9 +2,10 @@
 const handler = async (event) => {
   try {
     const subject = event.queryStringParameters.name || 'World'
+    const envTest = process.env.TEST
     return {
       statusCode: 200,
-      body: JSON.stringify({ message: `Hello ${subject}` }),
+      body: JSON.stringify({ message: `Hello ${subject}`, test: envTest}),
       // // more keys you can return:
       // headers: { "headerName": "headerValue", ... },
       // isBase64Encoded: true,
