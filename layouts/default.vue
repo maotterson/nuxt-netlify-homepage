@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white">
     <div class="flex flex-col" :class="(this.$store.state.drawerShowing)?'min-h-screen':''">
-      <Topbar class="text-white bg-gray-800 lg:hidden" />
+      <NavIcon class="text-gray-500 fixed right-0 mt-2 mr-2	lg:hidden" />
       <Drawer class="text-white bg-gray-800 flex-grow	" v-if="this.$store.state.drawerShowing"/>
     </div>
     <div class="max-w-8xl w-full md:max-w-md lg:max-w-max mx-auto h-full" v-if="!this.$store.state.drawerShowing">

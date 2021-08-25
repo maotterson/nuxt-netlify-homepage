@@ -1,16 +1,16 @@
 <template>
-  <div class="nav-icon relative w-6 h-5 visible cursor-pointer" 
+  <div class="nav-icon w-6 h-5 visible cursor-pointer" 
     ref="burger" 
     id="burger"
     @click="toggleDrawer">
     <span 
-      class="absolute inset-0 w-6 h-1 rounded burger-top transition-all	bg-white"
+      class="absolute inset-0 w-6 h-1 rounded burger-top transition-all bg-black"
       ref="burgerTop"></span>
     <span 
-      class="absolute inset-y-2 w-6 h-1 rounded burger-middle transition-all bg-white" 
+      class="absolute inset-y-2 w-6 h-1 rounded burger-middle transition-all bg-black" 
       ref="burgerMiddle" ></span>
     <span 
-      class="absolute inset-y-4 w-6 h-1 rounded burger-bottom transition-all bg-white" 
+      class="absolute inset-y-4 w-6 h-1 rounded burger-bottom transition-all bg-black" 
       ref="burgerBottom"></span>
   </div>
 </template>
@@ -40,20 +40,26 @@ export default {
       if(this.drawerShowing){
           burgerTop.classList.add('transform', '-rotate-45')
           burgerTop.classList.replace('inset-0', 'inset-y-2')
+          burgerTop.classList.replace('bg-black', 'bg-white')
 
           burgerMiddle.classList.add('hidden')
+          burgerMiddle.classList.replace('bg-black', 'bg-white')
 
           burgerBottom.classList.add('transform','rotate-45')
           burgerBottom.classList.replace('inset-y-4', 'inset-y-2')
+          burgerBottom.classList.replace('bg-black', 'bg-white')
       }
       else{
           burgerTop.classList.remove('transform','-rotate-45')
           burgerTop.classList.replace('inset-y-2', 'inset-0')
+          burgerTop.classList.replace('bg-white', 'bg-black')
 
           burgerMiddle.classList.remove('hidden')
+          burgerMiddle.classList.replace('bg-white', 'bg-black')
 
           burgerBottom.classList.remove('transform','rotate-45')
           burgerBottom.classList.replace('inset-y-2', 'inset-y-4')
+          burgerBottom.classList.replace('bg-white', 'bg-black')
       }
     },
   }
