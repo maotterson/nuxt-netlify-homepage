@@ -11,7 +11,7 @@
 <script>
 export default {
   async asyncData({ $axios }) {
-    const endpoint = "https://v2.maotterson.com/.netlify/functions/hello-world"
+    const endpoint = "/.netlify/functions/hello-world"
     const data = await $axios.$get(endpoint)
     return {
       data
