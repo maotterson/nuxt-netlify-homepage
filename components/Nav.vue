@@ -27,8 +27,8 @@ export default {
           "href":"/Projects/"
         },
         {
-          "title":"Blog",
-          "href":"/Blog/"
+          "title":"Mini-Projects",
+          "href":"/Mini-Projects/"
         },
         {
           "title":"Resume",

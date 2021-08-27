@@ -13,7 +13,6 @@ export const mutations = {
     this.state.drawerShowing ? this.state.drawerShowing = false : this.state.drawerShowing = true;
   },
   closeDrawer(){
-    console.log("close")
     this.state.drawerShowing = false;
   }
 }
