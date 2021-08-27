@@ -2,28 +2,33 @@ require('dotenv').config()
 const axios = require('axios')
 
 const handler = async (event) => {
+  //retrieve access token via refresh token
   const strava = 
   {
-    strava_token_url: `http://www.strava.com/oauth/token?client_id=${process.env.strava_client_id}&client_secret=${process.env.strava_client_secret}&refresh_token=${process.env.strava_refresh_token}&grant_type=refresh_token`,
-    strava_activities_url: 'https://www.strava.com/api/v3/athlete/activities?access_token=',
-    strava_client_id: process.env.strava_client_id,
-    strava_client_secret: process.env.strava_client_secret,
-    strava_refresh: process.env.strava_refresh_token
+    strava_token_url: `https://www.strava.com/oauth/token?client_id=${process.env.strava_client_id}&client_secret=${process.env.strava_client_secret}&refresh_token=${process.env.strava_refresh_token}&grant_type=refresh_token`,
+    strava_activities_url: 'https://www.strava.com/api/v3/athlete/activities?access_token='
   }
-  try {
-    const token_response = await axios.post(strava.strava_token_url)
-    console.log(token_response.token_type)
-    const access_token = token_response.access_token
+  const tokenResponse = await axios({
+    method: 'post',
+    url: strava.strava_token_url
+  })
+  const access_token = tokenResponse.data.access_token
+  const response = await axios({
+    method: 'get',
+    url: strava.strava_activities_url+access_token
+  })
+  //-----------------------------------------------------------
 
-    const activities_response = await axios.get(strava.strava_activities_url+access_token)
+  //handle the strava response data
+  const activities = response.data
+  const data = []
+  for(activity of activities){
+    data.push(activity.type)
+  }
 
-    
-    return {
-      statusCode: 200,
-      body: JSON.stringify({ activity: activities_response[0] }),
-    }
-  } catch (error) {
-    return { statusCode: 500, body: error.toString() }
+  return {
+    statusCode: 200,
+    body: JSON.stringify({ data }),
   }
 }
 
