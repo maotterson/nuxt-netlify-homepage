@@ -23,7 +23,32 @@ const handler = async (event) => {
   const activities = response.data
   const data = []
   for(activity of activities){
-    data.push(activity.type)
+    const newActivity = {
+      type: activity.type,
+      info: null
+    }
+    if(activity.type === "Walk"){
+      newActivity.info = {
+        distance: activity.distance,
+        time: activity.elapsed_time,
+        date: activity.start_date_local
+      }
+    }
+    else if(activity.type == "WeightTraining"){
+      newActivity.info = {
+        category: activity.name,
+        time: activity.elapsed_time,
+        date: activity.start_date_local
+      }
+    }
+    else if(activity.type == "Workout"){
+      newActivity.info = {
+        category: activity.name,
+        time: activity.elapsed_time,
+        date: activity.start_date_local
+      }
+    }
+    data.push(newActivity)
   }
 
   return {
