@@ -12,6 +12,7 @@ const handler = async (event) => {
   }
   try {
     const token_response = await axios.post(strava.strava_token_url)
+    console.log(token_response.token_type)
     const access_token = token_response.access_token
 
     const activities_response = await axios.get(strava.strava_activities_url+access_token)
