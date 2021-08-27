@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="prose md:prose-xl">
+    <div class="prose md:prose-xl mt-4 md:mt-0">
       <h1>My name is <span class="font-bold text-blue-500">Mark Otterson</span>.</h1>
       
     </div>
