@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="prose md:prose-xl mb-8">
+    <div class="prose md:prose-xl mt-8 md:mt-0 mb-8">
       <h1 class="">Projects</h1>
       <h3>A selection of projects I have worked on.</h3>
       <div class="flex flex-col">
