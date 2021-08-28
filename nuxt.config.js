@@ -35,7 +35,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/vuetify'
+    '@nuxtjs/vuetify',
+    '@nuxtjs/color-mode'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -71,4 +72,10 @@ export default {
   vuetify: {
     treeShake: true
   },
+
+  colorMode: {
+    preference: 'system',
+    fallback: 'light',
+    classSuffix: ''
+  }
 }

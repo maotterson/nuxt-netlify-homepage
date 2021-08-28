@@ -4,7 +4,7 @@
 
 
     <div>
-      <h1 class="text-4xl text-black">Mark <span class="font-bold">Otterson</span></h1>
+      <h1 class="text-4xl">Mark <span class="font-bold">Otterson</span></h1>
       <h2 class="text-2xl text-gray-400">&#60;maotterson.com/></h2>
     </div>
 
