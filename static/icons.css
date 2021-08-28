@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?wtr8u1');
-  src:  url('fonts/icomoon.eot?wtr8u1#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?wtr8u1') format('truetype'),
-    url('fonts/icomoon.woff?wtr8u1') format('woff'),
-    url('fonts/icomoon.svg?wtr8u1#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?2e9fqk');
+  src:  url('fonts/icomoon.eot?2e9fqk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2e9fqk') format('truetype'),
+    url('fonts/icomoon.woff?2e9fqk') format('woff'),
+    url('fonts/icomoon.svg?2e9fqk#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,30 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-weights:before {
+  content: "\e93d";
+}
+.icon-document-file-xml:before {
+  content: "\e901";
+}
+.icon-document-file-sql:before {
+  content: "\e902";
+}
+.icon-document-file-yml:before {
+  content: "\e903";
+}
+.icon-directions_bike:before {
+  content: "\e93e";
+}
+.icon-directions_run:before {
+  content: "\e93f";
+}
+.icon-directions_walk:before {
+  content: "\e940";
+}
+.icon-http:before {
+  content: "\e900";
+}
 .icon-close:before {
   content: "\e93c";
 }
@@ -45,18 +69,6 @@
 }
 .icon-star1:before {
   content: "\e936";
-}
-.icon-http:before {
-  content: "\e900";
-}
-.icon-document-file-xml:before {
-  content: "\e901";
-}
-.icon-document-file-sql:before {
-  content: "\e902";
-}
-.icon-document-file-yml:before {
-  content: "\e903";
 }
 .icon-cloudflare:before {
   content: "\e935";

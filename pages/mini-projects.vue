@@ -1,6 +1,10 @@
 <template>
   <div>
-    
+    <EventModal 
+      v-if="calendar.selectedOpen" 
+      :selectedEvent="calendar.selectedEvent"
+      @closemodal="closeModal">
+    </EventModal>
 
     <div class="prose md:prose-xl">
       <div class="mb-4">
@@ -20,13 +24,12 @@
             :event-overlap-mode="calendar.mode"
             :event-overlap-threshold="30"
             :event-color="getEventColor"
+            @click:date="viewDay"
+            @click:event="showEvent"
             @change="getEvents"
           >
           </v-calendar>
       </v-sheet>
-
-
-
 
     </div>
   </div>
@@ -42,6 +45,9 @@ export default {
       events: [],
       value: '',
       colors: ['blue', 'indigo', 'deep-purple', 'cyan', 'green', 'orange', 'grey darken-1'],
+      selectedEvent: {},
+      selectedElement: null,
+      selectedOpen: false,
     }
 
     //commented ajax for sample data
@@ -54,6 +60,9 @@ export default {
     }
   },
   methods: {
+    closeModal(){
+      this.calendar.selectedOpen = false
+    },
     getEvents ({ start, end }) {
       const events = []
 
@@ -61,7 +70,8 @@ export default {
         const event = {
           name: this.setActivityName(activity),
           start: this.setActivityTime(activity),
-          color: this.setColor(activity.type)
+          color: this.setColor(activity.type),
+          activityInfo: activity
         }
 
         events.push(event)
@@ -108,6 +118,25 @@ export default {
       else if(activity.type=="Workout"){
         return splitTime[0]
       }
+    },
+    viewDay({ date }){
+
+    },
+    showEvent({ nativeEvent, event }){
+      const open = () => {
+        this.calendar.selectedEvent = event
+        this.calendar.selectedElement = nativeEvent.target
+        requestAnimationFrame(() => requestAnimationFrame(() => this.calendar.selectedOpen = true))
+      }
+
+      if (this.calendar.selectedOpen) {
+        this.calendar.selectedOpen = false
+        requestAnimationFrame(() => requestAnimationFrame(() => open()))
+      } else {
+        open()
+      }
+
+      nativeEvent.stopPropagation()
     }
   },
 }
