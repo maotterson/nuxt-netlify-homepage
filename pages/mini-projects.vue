@@ -6,7 +6,7 @@
       @closemodal="closeModal">
     </EventModal>
 
-    <div class="prose md:prose-xl">
+    <div class="prose md:prose-xl mt-8 md:mt-0">
       <div class="mb-4">
         <h1>Mini-Projects</h1>
         <h3>Small projects/addons to my portfolio page</h3>
