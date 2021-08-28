@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="prose md:prose-xl">
+    <div class="prose md:prose-xl mt-8 md:mt-0">
       <h1>{{ post.title }}</h1>
       <h3>{{ post.description }}</h3>
       <nuxt-content :document="post" />
