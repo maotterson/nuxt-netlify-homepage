@@ -1,8 +1,8 @@
 module.exports = {
   plugins: [
-    require('@tailwindcss/typography'),
+    require('@tailwindcss/typography')
   ],
-  darkMode: 'class',
+  darkMode: 'media',
   theme: {
     extend: {
       typography: {
@@ -17,5 +17,5 @@ module.exports = {
         },
       }
     },
-  },
+  }
 }
