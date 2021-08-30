@@ -14,7 +14,7 @@
           </div>
 
           <div class="flex flex-row flex-wrap justify-items-stretch mb-4">
-            <div v-for="subcategory in expandedSkill.subcategories" :key="subcategory" class="rounded bg-gray-100 border-2 px-2 mr-2">
+            <div v-for="subcategory in expandedSkill.subcategories" :key="subcategory" class="rounded bg-gray-100 dark:bg-gray-600 border-2 px-2 mr-2">
               {{subcategory}}
             </div>
           </div>

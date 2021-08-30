@@ -12,8 +12,8 @@
           <div v-for="skill of category.skills" 
             :key="skill.slug" 
             @click="expandSkill(skill)" 
-            :class="[(skill===expandedSkill)?'bg-green-800 border-green-900 text-white':'bg-gray-100 dark:bg-gray-700 dark:text-white',(skill.starred)?'border-yellow-300 dark:bg-yellow-800 bg-yellow-100':'']" 
-            class="border-2 rounded hover:bg-green-100 hover:border-green-400 p-2 mr-2 mb-2">
+            :class="[(skill===expandedSkill)?'bg-green-800 border-green-900 text-gray-200':'bg-white dark:bg-gray-700 dark:text-gray-300',(skill.starred)?'dark:border-black border-yellow-500 dark:bg-yellow-900 bg-yellow-300':'']" 
+            class="border-2 rounded hover:bg-green-100 dark:hover:bg-green-800 hover:border-green-400 p-2 mr-2 mb-2">
             <span class="mr-2" :class="skill.icon"></span><span :class="(skill.starred)?'font-medium':''">{{skill.title}}</span>
           </div>
         </div>
