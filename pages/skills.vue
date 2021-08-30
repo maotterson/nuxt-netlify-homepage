@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="prose md:prose-xl mb-4 mt-8 md:mt-0">
+    <div class="dark:prose-dark prose md:prose-xl mb-4 mt-8 md:mt-0">
       <h1>Skills</h1>
       <h3>Technologies, languages, and tools that I have worked with beyond an introductory level.</h3>
       <SkillList :skills="skills" :categories="categories" />

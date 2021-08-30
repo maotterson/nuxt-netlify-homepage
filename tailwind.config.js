@@ -1,11 +1,17 @@
 module.exports = {
+  variants: {
+    extend: {
+      typography: ['dark']
+    }
+  },
+
   plugins: [
     require('@tailwindcss/typography')
   ],
   darkMode: 'media',
   theme: {
     extend: {
-      typography: {
+      typography: (theme) => ({
         DEFAULT: {
           css: {
             a: {
@@ -15,7 +21,39 @@ module.exports = {
             },
           },
         },
-      }
+        dark: {
+          css: {
+            color: theme('colors.gray.300'),
+            a: {
+              color: theme('colors.blue.100'),
+              '&:hover': {
+                color: theme('colors.blue.100'),
+              },
+            },
+            h1: {
+              color: 'white'
+            },
+            h2: {
+              color: '#cccccc'
+            },
+            h3: {
+              color: '#cccccc'
+            },
+            h4: {
+              color: '#cccccc'
+            },
+            h5: {
+              color: '#cccccc'
+            },
+            h6: {
+              color: '#cccccc'
+            },
+            strong: {
+              color: "white"
+            }
+          },
+        },
+      })
     },
   }
 }

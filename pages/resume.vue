@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="prose md:prose-xl mt-8 md:mt-0">
+    <div class="dark:prose-dark prose md:prose-xl mt-8 md:mt-0">
       <h1>Resume</h1>
       <h3>A browser-friendly version of my resume.</h3>
       <nuxt-content :document="resume" />
