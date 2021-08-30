@@ -4,13 +4,13 @@
     id="burger"
     @click="toggleDrawer">
     <span 
-      class="absolute inset-0 w-6 h-1 rounded burger-top transition-all bg-black"
+      class="absolute inset-0 w-6 h-1 rounded burger-top transition-all bg-black dark:bg-white"
       ref="burgerTop"></span>
     <span 
-      class="absolute inset-y-2 w-6 h-1 rounded burger-middle transition-all bg-black" 
+      class="absolute inset-y-2 w-6 h-1 rounded burger-middle transition-all bg-black dark:bg-white" 
       ref="burgerMiddle" ></span>
     <span 
-      class="absolute inset-y-4 w-6 h-1 rounded burger-bottom transition-all bg-black" 
+      class="absolute inset-y-4 w-6 h-1 rounded burger-bottom transition-all bg-black dark:bg-white" 
       ref="burgerBottom"></span>
   </div>
 </template>
