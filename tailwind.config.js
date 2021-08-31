@@ -24,8 +24,11 @@ module.exports = {
         buttons: {
           css: {
             a: {
-              color: theme('colors.blue.600'),
+              color: theme('colors.white'),
               textDecoration: 'none',
+              '&:hover': {
+                color: theme('colors.white'),
+              },
             }
           }
         },

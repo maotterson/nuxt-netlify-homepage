@@ -10,7 +10,15 @@ tags:
   - DigitalOcean
   - Azure
   - Microsoft PowerApps
-github: https://github.com/maotterson/asc-test
+projects:
+  - name: REST API
+    links:
+    - {label: View on GitHub, href: https://github.com/maotterson/blackjack, icon: icon-github}
+    - {label: Visit REST API, href: https://github.com/maotterson/blackjack, icon: icon-external-link}
+  - name: Front-End Website
+    links:
+    - {label: View on GitHub, href: https://github.com/maotterson/blackjack, icon: icon-github}
+    - {label: Visit Website, href: https://github.com/maotterson/blackjack, icon: icon-external-link}
 ---
 
 ## Summary

@@ -4,7 +4,9 @@ description: A basic mobile implementation of Blackjack for Android.
 tags:
   - Android SDK
   - Java
-github: https://github.com/maotterson/blackjack
+projects:
+  - links:
+    - {label: View on GitHub, href: https://github.com/maotterson/blackjack, icon: icon-github}
 ---
 ## Summary
 A basic mobile implementation of Blackjack for Android

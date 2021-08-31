@@ -5,7 +5,9 @@ tags:
   - Android SDK
   - Java
   - Googleapis
-github: https://github.com/maotterson/geography-quiz
+projects:
+  - links:
+    - {label: View on GitHub, href: https://github.com/maotterson/geography-quiz, icon: icon-github}
 ---
 ## Summary
 A geography guessing game for Android where the user attempts to place a marker on a map as close as possible to a the actual displayed location. Inspired by the classic flash game Traveler IQ.
