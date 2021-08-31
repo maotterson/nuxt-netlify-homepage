@@ -9,6 +9,7 @@ tags:
   - MongoDB
   - Googleapis
   - DigitalOcean
+href: https://vaccines.maotterson.com
 ---
 ## Summary
 A web application displaying currently available COVID-19 vaccine

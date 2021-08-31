@@ -21,6 +21,14 @@ module.exports = {
             },
           },
         },
+        buttons: {
+          css: {
+            a: {
+              color: theme('colors.blue.600'),
+              textDecoration: 'none',
+            }
+          }
+        },
         dark: {
           css: {
             color: theme('colors.gray.300'),
