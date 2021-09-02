@@ -19,3 +19,6 @@ November 2019 - December 2019
 - A single Java application built using the Android SDK 
 
 - External communication with Google Maps API-related services
+
+## Development
+This project was developed as the final project for an Android Development course.
