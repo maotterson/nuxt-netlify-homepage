@@ -11,7 +11,7 @@
         <nuxt class="lg:static w-full min-h-screen shadow-xl p-4 lg:p-12"></nuxt>
       </div>
     </div>
-    <Footer/>
+    <Footer class="lg:hidden" v-if="!this.$store.state.drawerShowing" />
   </div>
 </template>
 
