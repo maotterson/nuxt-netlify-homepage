@@ -14,7 +14,6 @@ projects:
   - name: REST API
     links:
     - {label: View on GitHub, href: https://github.com/maotterson/blackjack, icon: icon-github}
-    - {label: Visit REST API, href: https://github.com/maotterson/blackjack, icon: icon-external-link}
   - name: Front-End Website
     links:
     - {label: View on GitHub, href: https://github.com/maotterson/blackjack, icon: icon-github}
