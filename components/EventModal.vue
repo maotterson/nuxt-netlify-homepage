@@ -13,16 +13,20 @@
           <div class="flex flex-row justify-center mb-2">
             <div class="text-7xl border-2 p-8 rounded-full z-50" :class="selectedEvent.color"><span :class="[getIcon()]"></span></div>
           </div>
-          <div class="flex flex-row justify-center">
+          <div class="flex flex-row justify-center px-24">
               <h2 class="text-3xl">{{selectedEvent.name}}</h2> 
           </div>
           <div class="flex flex-row justify-center mb-8">
               <h4 class="text-lg text-gray-400">{{selectedEvent.start}}</h4> 
           </div>
-          <div class="flex flex-row justify-center">
-            <div class="flex flex-col justify-center">
-              <h4 class="text-lg text-gray-800">{{this.time}} minutes</h4> 
-              <h4 v-if="selectedEvent.activityInfo.info.distance" class="text-lg text-gray-800">{{this.distance}} miles</h4> 
+          <div class="flex flex-row justify-center px-8">
+            <div v-if="selectedEvent.activityInfo.info.distance" class="flex flex-col items-center mr-8">
+              <div><span class="text-4xl icon-ruler"></span></div>
+              <h4 class="text-lg text-gray-800 font-bold">{{this.distance}} miles</h4> 
+            </div>
+            <div class="flex flex-col items-center">
+              <div><span class="text-4xl icon-clock"></span></div>
+              <h4 class="text-lg text-gray-800 font-bold">{{this.time}} minutes</h4> 
             </div>
           </div>
           

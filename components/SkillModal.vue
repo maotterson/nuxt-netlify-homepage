@@ -24,7 +24,7 @@
           <div v-if="expandedSkill.projects.length!=0">
             <h3 class="text-2xl mb-2" >Projects</h3>
             <div class="flex flex-row">
-              <NuxtLink :to="project.path" v-for="project in expandedSkill.projects" :key="project.slug"><span>{{project.title}}</span></NuxtLink>
+              <NuxtLink class="rounded px-2 border-2" :to="project.path" v-for="project in expandedSkill.projects" :key="project.slug"><span>{{project.title}}</span></NuxtLink>
             </div>
           </div>
         </div>
