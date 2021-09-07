@@ -14,7 +14,7 @@
 
       <h2>Strava Activity Calendar</h2>
       <p>I created a calendar displaying all of monthly activities logged to Strava.</p>
-      <v-sheet height="600" class="min-w-full	">
+      <v-sheet height="600" class="min-w-full	dark:bg-gray-700">
         <v-calendar
             ref="calendar"
             v-model="calendar.value"
@@ -92,7 +92,7 @@ export default {
       else if(type=="WeightTraining"){
         return "bg-red-300"
       }
-      else if(type=="Workout"){
+      else if(type=="Workout"||activity.type=="Run"){
         return "bg-yellow-300"
       }
     },
@@ -103,7 +103,7 @@ export default {
       else if(activity.type=="WeightTraining"){
         return activity.info.category
       }
-      else if(activity.type=="Workout"){
+      else if(activity.type=="Workout"||activity.type=="Run"){
         return activity.info.category
       }
     },
@@ -116,7 +116,7 @@ export default {
       else if(activity.type=="WeightTraining"){
         return splitTime[0]
       }
-      else if(activity.type=="Workout"){
+      else if(activity.type=="Workout"||activity.type=="Run"){
         return splitTime[0]
       }
     },
