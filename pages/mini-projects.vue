@@ -92,7 +92,7 @@ export default {
       else if(type=="WeightTraining"){
         return "bg-red-300"
       }
-      else if(type=="Workout"||activity.type=="Run"){
+      else if(type=="Workout"||type=="Run"){
         return "bg-yellow-300"
       }
     },
