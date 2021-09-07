@@ -20,7 +20,7 @@ appointments in Ohio on a map.
 ## Dates Developed
 March 2021 - April 2021
 
-## Contents
+## Description
 - A full-stack monolithic web application (MEAN), consisting of a Node.js back-end using the Express.js framework and a front-end built on the Angular framework.
 
 - A MongoDB instance to store appointment state and normalized location data
@@ -29,4 +29,4 @@ March 2021 - April 2021
 
 - A DigitalOcean web platform housing the web application, and a MongoDB Atlas cluster for the database.
 
-- External communication with Google Maps & Places API-related services & VaccineSpotter.org API containing scraped appointment data.
+- Integrated with Google Maps & Places API-related services & VaccineSpotter.org API containing scraped appointment data.
