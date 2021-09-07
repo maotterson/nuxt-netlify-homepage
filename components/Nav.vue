@@ -33,10 +33,6 @@ export default {
         {
           "title":"Resume",
           "href":"/Resume/"
-        },
-        {
-          "title":"Contact",
-          "href":"/Contact/"
         }
       ]
     }
