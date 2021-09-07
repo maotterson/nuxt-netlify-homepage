@@ -28,7 +28,7 @@ I created and implemented a REST API/Database, researched various cloud platform
 ## Dates Developed
 June 2021 - August 2021 (Paused)
 
-## Contents
+## Description
 - A RESTful Node.js API built using the Express.js framework
 
 - A ASP.NET Core web application using Razor Pages (MVVM) for the front-facing webpage used by students to check in
@@ -39,7 +39,7 @@ June 2021 - August 2021 (Paused)
 
 - DigitalOcean web platforms provisioned to house each web application & MongoDB Atlas to house the database.
 
-## Development & Implementation
+## Notes
 Meetings were scheduled every couple of weeks to discuss design constraints, potential features, and provide general progress updates. Initially I provisioned a resource group on Azure housing web services for each web application, and a CosmosDB instance with MongoDB wire protocol for a production database. However, For the sake of simplicity in resource management, it was decided that DigitalOcean's platform may be more suitable (using Web Platform services). Since DigitalOcean doesn't natively have a preconfigured ASP.NET Core image, I containerized the application (Docker).
 
 Our greenfield project was indefinitely paused in the beginning of August, however, as other departments at the college expressed interest in similar automated usage solutions, causing the college to look into professionally available options. At the time of pause, the REST API was fully functional in processing a check-in, and I had moved onto developing the client webpage to send form data to/consume the API.

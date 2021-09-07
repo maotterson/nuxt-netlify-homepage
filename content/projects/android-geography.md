@@ -15,10 +15,7 @@ A geography guessing game for Android where the user attempts to place a marker 
 ## Dates Developed
 November 2019 - December 2019
 
-## Contents
-- A single Java application built using the Android SDK 
+## Description
+- A single Java application built using the Android SDK integrated with Google Maps API-related services
 
-- External communication with Google Maps API-related services
-
-## Development
-This project was developed as the final project for an Android Development course.
+- This project was developed as the final project for an Android Development course.
