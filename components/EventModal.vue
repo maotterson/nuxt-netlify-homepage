@@ -61,7 +61,7 @@ export default {
       else if(activityType == "Walk"){
         return "icon-directions_walk"
       }
-      else if(activityType == "Workout"){
+      else if(activityType == "Workout"||activityType=="Run"){
         return "icon-directions_run"
       }
       return ""
@@ -74,7 +74,7 @@ export default {
       else if(activityType == "Walk"){
         return "text-blue-400"
       }
-      else if(activityType == "Workout"){
+      else if(activityType == "Workout"||activityType=="Run"){
         return "text-yellow-400"
       }
     }
