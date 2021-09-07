@@ -48,6 +48,13 @@ const handler = async (event) => {
         date: activity.start_date_local
       }
     }
+    else if(activity.type == "Run"){
+      newActivity.info = {
+        category: activity.name,
+        time: activity.elapsed_time,
+        date: activity.start_date_local
+      }
+    }
     data.push(newActivity)
   }
 

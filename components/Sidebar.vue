@@ -11,6 +11,8 @@
     <Nav />
 
     <SocialLinks />
+
+    
   </div>
 </template>
 
