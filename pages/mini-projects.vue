@@ -33,7 +33,7 @@
           </button>
         </div>
       </div>
-      <v-sheet height="600" class="min-w-full	dark:bg-gray-700">
+      <v-sheet height="600" class="min-w-full">
         <v-calendar
           ref="calendar"
           v-model="calendar.value"

@@ -41,6 +41,9 @@ module.exports = {
                 color: theme('colors.blue.100'),
               },
             },
+            blockquote: {
+              color: '#cccccc'
+            },
             h1: {
               color: 'white'
             },
