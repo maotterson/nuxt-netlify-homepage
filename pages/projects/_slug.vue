@@ -2,7 +2,16 @@
   <div>
     <div class="dark:prose-dark prose md:prose-xl mt-8 md:mt-0">
       <h1>{{ post.title }}</h1>
+      
       <blockquote class="rounded p-4">{{ post.description }}</blockquote>
+      
+      <video
+        class="relative w-full object-cover opacity-6	z-0"
+        :src="'/videos/'+post.video" 
+        muted 
+        loop 
+        autoplay>
+      </video>
 
       <div v-for="project in post.projects" :key="project" class="flex flex-col">
         <h3 v-if="project.name">{{project.name}}</h3>

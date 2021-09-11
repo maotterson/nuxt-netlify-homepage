@@ -18,6 +18,8 @@ projects:
     links:
     - {label: View on GitHub, href: https://github.com/maotterson/blackjack, icon: icon-github}
     - {label: Visit Website, href: https://github.com/maotterson/blackjack, icon: icon-external-link}
+thumb: blackjack-thumbnail.svg
+
 ---
 
 ## Summary

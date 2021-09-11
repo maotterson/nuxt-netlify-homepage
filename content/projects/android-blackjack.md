@@ -7,6 +7,8 @@ tags:
 projects:
   - links:
     - {label: View on GitHub, href: https://github.com/maotterson/blackjack, icon: icon-github}
+video: blackjack-bg.mp4
+thumb: blackjack-thumbnail.svg
 ---
 ## Summary
 A mobile implementation of the blackjack card game for Android

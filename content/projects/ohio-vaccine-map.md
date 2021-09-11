@@ -12,6 +12,8 @@ tags:
 projects:
   - links:
     - {label: Visit Website, href: https://vaccines.maotterson.com, icon: icon-external-link}
+video: vaccine-bg.mp4
+thumb: vaccine-thumbnail.svg
 ---
 ## Summary
 A web application displaying currently available COVID-19 vaccine
