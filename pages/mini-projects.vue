@@ -130,7 +130,7 @@ export default {
         return activity.info.category
       }
       else if(activity.type == "Ride"){
-        return activity.info.category
+        return "Bike"
       }
     },
     setActivityTime(activity){
