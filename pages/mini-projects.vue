@@ -115,6 +115,9 @@ export default {
       else if(type=="Workout"||type=="Run"){
         return "bg-yellow-300"
       }
+      else if(type == "Ride"){
+        return "bg-green-300"
+      }
     },
     setActivityName(activity){
       if(activity.type=="Walk"){
@@ -124,6 +127,9 @@ export default {
         return activity.info.category
       }
       else if(activity.type=="Workout"||activity.type=="Run"){
+        return activity.info.category
+      }
+      else if(activity.type == "Ride"){
         return activity.info.category
       }
     },
@@ -137,6 +143,9 @@ export default {
         return splitTime[0]
       }
       else if(activity.type=="Workout"||activity.type=="Run"){
+        return splitTime[0]
+      }
+      else if(activity.type == "Ride"){
         return splitTime[0]
       }
     },

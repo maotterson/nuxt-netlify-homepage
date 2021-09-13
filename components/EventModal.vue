@@ -68,6 +68,9 @@ export default {
       else if(activityType == "Workout"||activityType=="Run"){
         return "icon-directions_run"
       }
+      else if(activityType == "Ride"){
+        return "icon-directions_run"
+      }
       return ""
     },
     getActivityColor(){
@@ -80,6 +83,9 @@ export default {
       }
       else if(activityType == "Workout"||activityType=="Run"){
         return "text-yellow-400"
+      }
+      else if(activityType == "Ride"){
+        return "text-green-400"
       }
     }
   },
