@@ -18,6 +18,7 @@
 
 <script>
 export default {
+  transition: 'slide-bottom',
    async asyncData({ $content }) {
     const projects = await $content("projects").fetch()
     projects.sort((a, b) => (a.priority > b.priority) ? 1 : -1)

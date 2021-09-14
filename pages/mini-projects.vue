@@ -13,7 +13,7 @@
       </div>
 
       <h2>Strava Activity Calendar</h2>
-      <h4 class="font-bold">(September 2021)</h4>
+      <h4 class="font-bold">September 2021</h4>
       <p>I created a calendar displaying all of monthly activities logged to Strava.</p>
       <div class="flex-row flex justify-center">
         <div class="flex flex-row items-center">
@@ -57,6 +57,7 @@
 
 <script>
 export default {
+  transition: 'slide-bottom',
   async asyncData({ $axios }) {
     const calendar = {
       type: 'month',
@@ -137,7 +138,7 @@ export default {
       const splitTime = activity.info.date.split('T')
 
       if(activity.type=="Walk"){
-        return splitTime[0]
+        return splitTime[0] + " " + splitTime[1].slice(0,-4)
       }
       else if(activity.type=="WeightTraining"){
         return splitTime[0]

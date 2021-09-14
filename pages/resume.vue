@@ -10,6 +10,7 @@
 
 <script>
 export default {
+  transition: 'slide-bottom',
   async asyncData({$content}){
       const resume = await $content("resume").fetch()
       return {resume}

@@ -27,6 +27,7 @@
 
 <script>
 export default {
+  transition: 'slide-bottom',
   async asyncData({ $content, params, error }) {
     let post;
     try {
