@@ -9,7 +9,6 @@ projects:
   - links:
     - {label: View on GitHub, href: https://github.com/maotterson/geography-quiz, icon: icon-github}
 video: geography-bg.mp4
-thumb: geography-thumbnail.svg
 priority: 3
 date: November 2019 - December 2019
 ---

@@ -8,7 +8,6 @@ projects:
   - links:
     - {label: View on GitHub, href: https://github.com/maotterson/blackjack, icon: icon-github}
 video: blackjack-bg.mp4
-thumb: blackjack-thumbnail.svg
 priority: 4
 date: October 2019
 
