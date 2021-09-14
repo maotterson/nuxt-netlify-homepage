@@ -137,7 +137,7 @@ export default {
       const splitTime = activity.info.date.split('T')
 
       if(activity.type=="Walk"){
-        return splitTime[0] + " " + splitTime[1].slice(0,-4)
+        return splitTime[0]
       }
       else if(activity.type=="WeightTraining"){
         return splitTime[0]
