@@ -19,6 +19,8 @@ projects:
     - {label: View on GitHub, href: https://github.com/maotterson/blackjack, icon: icon-github}
     - {label: Visit Website, href: https://github.com/maotterson/blackjack, icon: icon-external-link}
 thumb: graduation-thumbnail.svg
+priority: 1
+date: June 2021 - August 2021 (Paused)
 
 ---
 

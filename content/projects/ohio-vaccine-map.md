@@ -14,6 +14,8 @@ projects:
     - {label: Visit Website, href: https://vaccines.maotterson.com, icon: icon-external-link}
 video: vaccine-bg.mp4
 thumb: vaccine-thumbnail.svg
+priority: 2
+date: March 2021 - April 2021
 ---
 ## Summary
 A web application displaying currently available COVID-19 vaccine
