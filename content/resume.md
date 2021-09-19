@@ -33,7 +33,7 @@ An aspiring web/software developer with a passion for learning new technologies 
 
 Projects included designing and implementing a real-time home power consumption monitoring device in an apartment using Arduino; additional extensive technical writing, collaborative semester-long capstone assignments with weekly presentations, and utilizing higher-level programming languages (MatLab, LabView) to complete labs and solve problems.
 
-### **Lorain County Community College, Elyria, OH
+### **Lorain County Community College, Elyria, OH**
 #### January 2018 - December 2019
 
 *Web Programming & Software Development Fundamentals Certificates + Misc (4.0 GPA)*
