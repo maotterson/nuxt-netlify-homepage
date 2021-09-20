@@ -8,6 +8,7 @@
       <video
         class="relative w-full object-cover opacity-6	z-0"
         :src="'/videos/'+post.video" 
+        v-if="post.video"
         muted 
         loop 
         autoplay>

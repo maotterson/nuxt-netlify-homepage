@@ -13,12 +13,10 @@ tags:
 projects:
   - name: REST API
     links:
-    - {label: View on GitHub, href: https://github.com/maotterson/blackjack, icon: icon-github}
+    - {label: View on GitHub, href: https://github.com/maotterson/asc-test, icon: icon-github}
   - name: Front-End Website
     links:
-    - {label: View on GitHub, href: https://github.com/maotterson/blackjack, icon: icon-github}
-    - {label: Visit Website, href: https://github.com/maotterson/blackjack, icon: icon-external-link}
-video: tutoring.mp4
+    - {label: View on GitHub, href: https://github.com/maotterson/asc-website-razor, icon: icon-github}
 priority: 1
 date: June 2021 - August 2021 (Paused)
 
