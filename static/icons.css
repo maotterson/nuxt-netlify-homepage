@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?1drtof');
-  src:  url('fonts/icomoon.eot?1drtof#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?1drtof') format('truetype'),
-    url('fonts/icomoon.woff?1drtof') format('woff'),
-    url('fonts/icomoon.svg?1drtof#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?pgmmkr');
+  src:  url('fonts/icomoon.eot?pgmmkr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?pgmmkr') format('truetype'),
+    url('fonts/icomoon.woff?pgmmkr') format('woff'),
+    url('fonts/icomoon.svg?pgmmkr#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -45,6 +45,9 @@
 }
 .icon-document-file-yml:before {
   content: "\e903";
+}
+.icon-file-pdf:before {
+  content: "\e945";
 }
 .icon-clock:before {
   content: "\e943";
