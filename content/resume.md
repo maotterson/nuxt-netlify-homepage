@@ -20,8 +20,8 @@ An aspiring web/software developer with a passion for learning new technologies 
 - **Other:** MS Office, MS PowerApps, Adobe Creative, Postman, Bash, Powershell, git
 
 ## Qualifications
-- Three years of professional tutoring experience in software and web development and math at a local community college
-- Six months of full-stack freelance web development experience, projects including:
+- Almost three years of professional tutoring experience in software and web development and math at a local community college
+- Six months of personal full-stack freelance web development experience, projects including:
   - MEAN project to display current COVID-19 vaccination appointments in Ohio.
   - In-house web applications (Node.js REST API, ASP.NET Website) to automate student check-ins for tutoring with our department's system.
 
