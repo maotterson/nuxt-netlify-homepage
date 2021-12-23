@@ -42,7 +42,7 @@ Projects included designing a database-driven website with ASP.NET, AJAX and Web
 
 ## Relevant Work Experience
 ### **Lorain County Community College - Academic Support Center, Elyria, OH**
-*Professional Tutor (January 2019--Present)*
+*Professional Tutor (January 2019--October 2021, On-call: October 2021--Present)*
 - Assist students on a walk-in basis with software/web development and math courses
 - Development of a greenfield automated check-in web-based solution for incoming students, consisting of a REST API written in Node.js with Microsoft Graph API services and custom Microsoft Power Automate webhooks.
 - Primarily assist with coursework covering object-oriented concepts, client-server scripting, and database design (C#, Java, ASP.NET, JavaScript, jQuery, PHP, AJAX, SQL).
