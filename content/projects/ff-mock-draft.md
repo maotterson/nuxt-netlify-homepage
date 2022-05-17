@@ -1,5 +1,5 @@
 ---
-title: Fantasy Football Mock Draft
+title: Fantasy Football Mock Draft Portal
 description: A domain-driven web application for running fantasy football drafts.
 tags:
   - C#
