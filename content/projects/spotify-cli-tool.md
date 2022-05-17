@@ -9,7 +9,7 @@ projects:
     - {label: View on GitHub, href: https://github.com/maotterson/spotcli, icon: icon-github}
 video: 
 priority: 0
-date: May 2022
+date: April 2022
 
 ---
 ## Summary
