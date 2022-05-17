@@ -9,14 +9,14 @@ projects:
     - {label: View on GitHub, href: https://github.com/maotterson/spotcli, icon: icon-github}
 video: 
 priority: 0
-date: April 2022
+date: April 2022 - May 2022
 
 ---
 ## Summary
 A command line tool to control Spotify through their web API.
 
 ## Dates Developed
-May 2022
+April 2022 - May 2022
 
 ## Description
 - Used a basic dependency injection container within a console application template.
