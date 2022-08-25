@@ -5,25 +5,25 @@ description: 'My resume in markdown!'
 
 ## Summary
 
-An aspiring web/software developer with a passion for learning new technologies and solving problems. Seeking an opportunity to help develop web-based solutions.
+An aspiring C#/.NET developer with a passion for learning new technologies and solving problems. Seeking an opportunity to continue to learn best software engineering practices and further my career.
+
+
+## Project Highlights
+
+-	**Automated Tutoring Check-In Application:** Architected and developed in-house prototype web application/database and cloud services (Node.js REST API, ASP.NET Core served front-end, Microsoft Azure Ecosystem) to automate student check-ins for tutoring. Worked on a team with two other tutors and delivered technical/project requirements directly to department head in self-directed progress meetings.
+-**CLI Tool for Spotify:** Developed a CLI tool for use with the Spotify Web API using C#/ASP.NET Core based on the clean architecture strategy utilizing a Mediatr command pipeline. The tool allows for typical controls of a Spotify Web player via the command line, along with additional tasks, such as creating a playlist from an external file.
+-	**Weightlifting Add-on Application for Strava:** Currently working on .NET application suite (Web API served via AWS Lambda + MAUI App) that integrates with the Strava API to allow more streamlined posting of weightlifting-related activities to the Strava App.
 
 
 ## Technical Skills
 
-- **Languages:** C#, Java, PHP, Go, Python
-- **Front-End:** JavaScript, HTML5, CSS3
-- **Front-End Frameworks:** Vue.js/Nuxt.js, Angular, Svelte, jQuery
-- **Back-End Frameworks:** Node.js/Express.js, ASP.NET Core, Laravel, Django
-- **Design Patterns/Strategies:** MVC, MVVM, REST/RPC APIs, MEVN, JAMStack, LAMP
-- **Cloud Platforms/Technologies:** DigitalOcean, AWS, Azure, Google Cloud, Docker, GitHub, Netlify, Strapi
-- **DBMS:** MongoDB, MySQL
-- **Other:** MS Office, MS PowerApps, Adobe Creative, Postman, Bash, Powershell, git
+-	**C#10/ASP.NET Core 6 Ecosystem** (REST, Minimal APIs, MVC, Blazor, Razor Pages)
+-	**Packages:** Entity Framework, Mediatr, Refit, Automapper, Polly, XUnit
+-	**Cloud Services:** AWS (Lambda, DynamoDB), Azure, DigitalOcean
+-	**Design Patterns/Strategies:** Domain-Driven Design, CQRS, MVC, N-Tier, SOLID/KISS/DRY/YAGNI Principles
+-	**Front-End Technologies:** JavaScript/HTML5/CSS3, Vue.js/Nuxt.js, Angular
+-	**Other:** SQL, MS Office, MS PowerApps, Docker/Docker Compose, Postman, Bash, git
 
-## Qualifications
-- Almost three years of professional tutoring experience in software and web development and math at a local community college
-- Six months of personal full-stack freelance web development experience, projects including:
-  - MEAN project to display current COVID-19 vaccination appointments in Ohio.
-  - In-house web applications (Node.js REST API, ASP.NET Website) to automate student check-ins for tutoring with our department's system.
 
 ## Education
 ### **The Ohio State University, Columbus, OH**
@@ -31,18 +31,18 @@ An aspiring web/software developer with a passion for learning new technologies 
 
 *B.S. Mechanical Engineering, General Business Minor (3.3 GPA)*
 
-Projects included designing and implementing a real-time home power consumption monitoring device in an apartment using Arduino; additional extensive technical writing, collaborative semester-long capstone assignments with weekly presentations, and utilizing higher-level programming languages (MatLab, LabView) to complete labs and solve problems.
+Projects included designing and implementing a real-time home power consumption monitoring device in an apartment using Arduino/Matlab.
 
 ### **Lorain County Community College, Elyria, OH**
 #### January 2018 - December 2019
 
-*Web Programming & Software Development Fundamentals Certificates + Misc (4.0 GPA)*
+*Web Programming Fundamentals Certificate + Miscellaneous Courses (4.0 GPA)*
 
-Projects included designing a database-driven website with ASP.NET, AJAX and Web Forms to evaluate fantasy football trades and an android geography guessing game with Google Maps APIs
+Projects included designing a monolithic ASP.NET web forms application to evaluate fantasy football trades, and a geography guessing game for Android using Java.
 
 ## Relevant Work Experience
 ### **Lorain County Community College - Academic Support Center, Elyria, OH**
 *Professional Tutor (January 2019--September 2021)*
-- Assist students on a walk-in basis with software/web development and math courses
-- Development of a greenfield automated check-in web-based solution for incoming students, consisting of a REST API written in Node.js with Microsoft Graph API services and custom Microsoft Power Automate webhooks.
-- Primarily assist with coursework covering object-oriented concepts, client-server scripting, and database design (C#, Java, ASP.NET, JavaScript, jQuery, PHP, AJAX, SQL).
+-	Assisted students on a walk-in basis with coursework for Computer Information Systems classes
+-	Primarily dealt with coursework pertaining to concepts in object-oriented programming, scripting in the client-server environment, and database design (C#, ASP.NET, SQL, JavaScript, PHP).
+-	Other miscellaneous responsibilities, such as helping prepare presentations with staff, creating tutorials for new tutoring equipment, and development of a greenfield automated check-in web prototype for incoming students.
