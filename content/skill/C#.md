@@ -3,9 +3,9 @@ title: C#
 icon: icon-csharp
 category: Desktop/Mobile Apps
 subcategories: 
-  - Xamarin
+  - .NET MAUI
 starred: true
 ---
-Apart from JavaScript, C# is the language I have the most experience and level of familiarity with. 
+I have primarily focused on C# development for the past few years and it is my preferred language and ecosystem.
 
-I have also tutored students working in C# from introductory concepts and object-oriented principles, all the way to more language-specific features such as delegates and generics.
+I have also frequently tutored students using C#, with topics ranging from introductory concepts and object-oriented principles, to building database-backed CRUD applications integrating SQL server.
