@@ -1,11 +1,11 @@
 ---
 title: Resume
-description: 'My resume in markdown!'
+description: 'My resume'
 ---
 
 ## Summary
 
-An aspiring C#/.NET developer with a passion for learning new technologies and solving problems. Seeking an opportunity to continue to learn best software engineering practices and further my career.
+Software developer specializing in the .NET ecosystem with a passion for learning new technologies and solving problems. Seeking an opportunity to continue to learn best software engineering practices and further my career.
 
 
 ## Project Highlights
