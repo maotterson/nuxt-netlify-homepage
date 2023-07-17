@@ -11,7 +11,7 @@ Software developer specializing in the .NET ecosystem with a passion for learnin
 ## Project Highlights
 
 -	**Automated Tutoring Check-In Application:** Architected and developed in-house prototype web application/database and cloud services (Node.js REST API, ASP.NET Core served front-end, Microsoft Azure Ecosystem) to automate student check-ins for tutoring. Worked on a team with two other tutors and delivered technical/project requirements directly to department head in self-directed progress meetings.
--**CLI Tool for Spotify:** Developed a CLI tool for use with the Spotify Web API using C#/ASP.NET Core based on the clean architecture strategy utilizing a Mediatr command pipeline. The tool allows for typical controls of a Spotify Web player via the command line, along with additional tasks, such as creating a playlist from an external file.
+- **CLI Tool for Spotify:** Developed a CLI tool for use with the Spotify Web API using C#/ASP.NET Core based on the clean architecture strategy utilizing a Mediatr command pipeline. The tool allows for typical controls of a Spotify Web player via the command line, along with additional tasks, such as creating a playlist from an external file.
 -	**Weightlifting Add-on Application for Strava:** Currently working on .NET application suite (Web API served via AWS Lambda + MAUI App) that integrates with the Strava API to allow more streamlined posting of weightlifting-related activities to the Strava App.
 
 
