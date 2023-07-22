@@ -7,7 +7,7 @@ tags:
 projects:
   - links:
     - {label: View on GitHub, href: https://github.com/maotterson/MyoFibril, icon: icon-github}
-video: 
+video: blackjack-bg.mp4
 priority: -1
 date: May-July 2023
 
