@@ -1,5 +1,5 @@
 ---
-title: MyoFibril: Weightlifting .NET MAUI App Connected to Strava
+title: MyoFibril - Weightlifting .NET MAUI App Connected to Strava
 description: A domain-driven web api and Maui application for streamlined recording of weight training sessions to Strava.
 tags:
   - C#
@@ -7,7 +7,7 @@ tags:
 projects:
   - links:
     - {label: View on GitHub, href: https://github.com/maotterson/MyoFibril, icon: icon-github}
-video: blackjack-bg.mp4
+video: 
 priority: -1
 date: May-July 2023
 
