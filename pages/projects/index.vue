@@ -6,8 +6,8 @@
       <div class="flex flex-col divide-y divide-grey-800">
         <div v-for="project of projects" :key="project.priority" class="flex flex-row items-center mt-2 pt-0 p-4 bg-gray-100 dark:bg-gray-700 shadow rounded mb-4">
           <div>
-            <h2><NuxtLink :to="project.slug">{{ project.title }}</NuxtLink></h>
-            <h6 class="mt-2 font-bold text-grey-500">{{project.date}}</h6>
+            <h2><NuxtLink :to="project.slug">{{ project.title }}</NuxtLink></h2>
+            <h6 class="mt-2 font-bold text-blue-700">{{project.date}}</h6>
             <p>{{project.description}}</p>
           </div>
         </div>
