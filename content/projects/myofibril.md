@@ -1,5 +1,5 @@
 ---
-title: MyoFibril - Weightlifting .NET MAUI App Connected to Strava
+title: MyoFibril - Weightlifting Companion for Strava
 description: A domain-driven web api and Maui application for streamlined recording of weight training sessions to Strava.
 tags:
   - C#
