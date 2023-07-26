@@ -6,6 +6,6 @@ subcategories:
   - Spring
 starred: true
 ---
-I have worked extensively with Java mostly in Android development and academia. I have also tutored countless students through basic object-oriented concepts using Java.
+I have worked and tutored extensively with Java mostly in Android development and academia.
 
-Recently I began experimenting with the Spring framework, specifically using Spring Boot.
+I have experience working with the Spring Boot framework in the context of layered architecture.
