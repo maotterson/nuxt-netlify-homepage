@@ -4,4 +4,4 @@ icon: icon-tailwindcss
 category: Front-end
 starred: true
 ---
-Tailwind CSS is my preferred utility for managing style in most cases where I want a bit more creative input over the appearance of components.
+Tailwind CSS is my preferred library for styling in instances where I would like more creative input over the appearance of components.
