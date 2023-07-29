@@ -4,4 +4,4 @@ icon: icon-mysql
 category: DBMS
 starred: false
 ---
-As part of an XAMPP stack, I am comfortable hooking up a MySQL database to a PHP backend.
+I have experience working with MySQL, primarily as part of the XAMPP stack and/or in the context of a Wordpress configuration.
