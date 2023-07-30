@@ -7,9 +7,6 @@ subcategories:
   - ElasticBeanstalk
   - Lambda
   - DynamoDB
-  - Route53
 starred: false
 ---
-Historically I have deployed several applications via the Elastic Beanstalk service, or managed EC2 instances.
-
-I also have some experience creating Lambda functions as my interest in microservices-oriented/serverless architectures has grown.
+I have experience with many AWS services, most notably Lambda, DynamoDB and Elastic Beanstalk. I also have some experience with SQS, SNS, and working directly with EC2 containers.
