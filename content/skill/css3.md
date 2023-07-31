@@ -6,6 +6,4 @@ subcategories:
   - SASS
 starred: true
 ---
-I generally prefer to hook up Tailwind CSS classesin personal projects, however I am just as comfortable working in vanilla CSS depending on the situation. 
-
-I am familiar with implementing both modern features such as flexbox/grid layouts, and have some experience using pre-processors like SASS.
+In addition to working with libraries such as Bootstrap or Tailwind, I have experience working with vanilla CSS to manage styling. I have additional experience with using SASS.
