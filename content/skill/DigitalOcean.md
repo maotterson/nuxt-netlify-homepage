@@ -5,6 +5,6 @@ category: Cloud Platforms & Services
 subcategories:
   - Droplets
   - Apps
-starred: true
+starred: false
 ---
-For personal projects I like to utilize DigitalOcean's platform for its predictability/general simplicity out-of-the-box, and as such am fairly comfortable with its fundamental features.
+I have experience using DigitalOcean's droplet and app services, and have done some experimentation with managed Kubernetes clusters on the platform.
