@@ -6,4 +6,4 @@ subcategories:
   - Actions
 starred: true
 ---
-GitHub is my version control hosting platform of choice; I am comfortable with most of its "special" features including **GitHub Actions** as a CI/CD tool, and managing issues or projects.
+GitHub has been my de facto version control hosting platform of choice. I additionally have experience leveraging **GitHub Actions** for CI/CD, and working with the CLI.
