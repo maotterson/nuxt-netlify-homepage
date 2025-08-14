@@ -14,7 +14,7 @@ projects:
   - links:
     - {label: Visit Website, href: https://projmgmt.maotterson.com, icon: icon-external-link}
 video: ai-projmgr-bg.mp4
-priority: 1
+priority: -2
 date: 2025
 ---
 ## Summary
