@@ -27,10 +27,6 @@ export default {
           "href":"/Projects/"
         },
         {
-          "title":"Mini-Projects",
-          "href":"/Mini-Projects/"
-        },
-        {
           "title":"Resume",
           "href":"/Resume/"
         }
