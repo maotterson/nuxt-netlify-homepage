@@ -5,6 +5,6 @@ category: Back-end
 subcategories:
   - Laravel
   - Wordpress
-starred: false
+starred: true
 ---
-I have some basic experience working in vanilla PHP, Laravel, and hooking up Wordpress. I have also tutored students creating basic CRUD applications built with XAMPP.
+My primary expertise lies in the **Laravel** ecosystem. I have a strong command of its core features and have utilized powerful tools like **Inertia.js** for building modern single-page applications, **Sanctum** for API authentication, and **Horizon** for managing queues. I'm also adept at setting up local development environments using **Laravel Sail**. Beyond Laravel, I have experience with vanilla PHP having tutored many students in client-server scripting.
